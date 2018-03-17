@@ -1,0 +1,86 @@
+body {
+    background-image: url("../images/grass-background.jpg");
+    background-repeat: repeat;
+}
+
+.page-header img {
+    width: 75%;
+    height: auto;
+}
+
+.page-header h2 {
+    font-size: 0;
+}
+.container-fluid {
+    margin-bottom: 5%;
+    background: #244729;
+} 
+
+.page-header {
+    border-bottom: 0px;
+}
+
+.jumbotron {
+    background-color: #244729;
+}
+
+.jumbotron p, .jumbotron h2 {
+    color: #ffc112;
+}
+
+.btn-warning {
+    background-color: #ffc112;
+    border: 1px solid #fdbb05;
+    color: #244729;
+}
+
+.list-group-item {
+    margin-bottom: 2%;
+    background-color: #ffffff;
+    border: 10px solid #ffc112;
+    border-right: 0px;
+    border-left: 0px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #244729;
+    padding: 3px;
+}
+
+#game-section img {
+    width: 75%;
+    height: auto;
+}
+
+@media only screen and (max-width: 600px) {
+    .page-header img {
+        width: 0;
+        height: auto;
+    }
+
+    .container-fluid {
+        border-bottom: 4px solid #fdbb05;
+    }
+    
+    .page-header {
+        margin: 0;
+    }
+
+    .page-header h2 {
+        font-size: 36px;
+        font-weight: bold;
+        color: #fdbb05;
+    }
+
+    .jumbotron {
+        border: 4px solid #fdbb05;
+    }
+
+    .jumbotron p {
+        font-size: 18px;
+    }
+
+    .jumbotron h2 {
+        font-size: 22px;
+    }
+}
+
